@@ -1,4 +1,4 @@
-module github.com/vramahandry/everyday-go/chapter5/my-first-cli
+module github.com/vramahandry/my-first-cli
 
 go 1.23.4
 
