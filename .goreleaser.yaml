@@ -28,6 +28,8 @@ brews:
     repository:
       owner: vramahandry
       name: homebrew-tools
+      token: "{{ .Env.TAP_GITHUB_TOKEN }}"
+      
 
 archives:
   - format: tar.gz
