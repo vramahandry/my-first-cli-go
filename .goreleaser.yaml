@@ -22,6 +22,12 @@ builds:
       - linux
       - windows
       - darwin
+brews:
+  - name: my-first-cli
+    homepage: https://github.com/vramahandry/homebrew-tools 
+    repository:
+      owner: vramahandry
+      name: homebrew-tools
 
 archives:
   - format: tar.gz
