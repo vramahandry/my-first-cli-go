@@ -16,6 +16,10 @@ before:
 builds:
   - id: my-first-cli
     binary: my-first-cli
+    ldflags:
+      - '-s -w -buildid='
+    flags:
+      - -trimpath
     env:
       - CGO_ENABLED=0
     goos:
